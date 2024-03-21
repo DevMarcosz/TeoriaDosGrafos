@@ -156,12 +156,11 @@ int main(int argc, char *argv[]){
         }
         cout << endl;
     }
+    
     else{
         int mst_wt = g.kruskalMST(mstPairs, start_node);
         cout << mst_wt << endl;
     }
-
-
 
     return 0;
 }

@@ -1,4 +1,6 @@
 # TeoriaDosGrafos
+Coloquei o Bat1 disponibilizado aqui com os binarios dentro (o binario do algoritmo de kosaraju tambem, mas como estava com o erro, fiz igual o de bellman)<br>
+Entao para testar o algoritmo de kosaraju, na sua respectiva pasta ira conter as instruções adequadas.<br>
 
 # 2ª VA
 ### Implementação

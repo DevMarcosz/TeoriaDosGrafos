@@ -10,4 +10,4 @@ g++ kosaraju.cpp -o kosaraju
 ./kosaraju -f input.mtx
 ```
 
-Obs: O teste2 é o mesmo teste que esta no Bat1 (g01.bat) que esta dando erro, mas com a resposta esperada "correta" por isso o "OK"
+Obs: O teste2 é o mesmo teste que esta no Bat1 (g01.bat) que esta dando erro, mas com a resposta esperada "correta" por isso o "OK". Não coloquei os outros teste porque pode ser que o algoritmo estaja errado e eu estaria testando errado, então coloquei esse de teste.

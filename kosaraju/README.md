@@ -9,3 +9,5 @@ g++ kosaraju.cpp -o kosaraju
 
 ./kosaraju -f input.mtx
 ```
+
+Obs: O teste2 é o mesmo teste que esta no Bat1 (g01.bat) que esta dando erro, mas com a resposta esperada "correta" por isso o "OK"

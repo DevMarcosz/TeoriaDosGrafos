@@ -1,4 +1,8 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <algorithm>
+#include <cstring>
 
 using namespace std;
 
@@ -21,16 +25,15 @@ struct Graph {
 };
 
 struct DisjointSets {
-    int *parent, *rnk;
+    static const int MAX_SIZE = 1001;
+    int parent[MAX_SIZE];
+    int rnk[MAX_SIZE];
     int n;
 
     DisjointSets(int n) {
         this->n = n;
-        parent = new int[n + 1];
-        rnk = new int[n + 1];
-
+        memset(rnk, 0, sizeof(rnk));
         for (int i = 0; i <= n; i++) {
-            rnk[i] = 0;
             parent[i] = i;
         }
     }
